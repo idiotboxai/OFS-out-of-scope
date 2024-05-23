@@ -23,7 +23,7 @@ target.com
 if only sub is blocked target.com
 
 
-## Example
+## Example<br>
 **subdomain.txt**
 ```
 ab.com
@@ -31,12 +31,12 @@ abc.com
 aba.com
 lol.aba.com
 ```
-**outofscope file**
+**outofscope file**<br>
 out.txt
 ```
 *.aba.com
 ```
-**outputfile**
+**outputfile**<br>
 output.txt
 ```
 ab.com
