@@ -6,3 +6,8 @@ Tried manually removing recusive subdomins one by one not anymore outofscope is 
 ```
  go install github.com/idiotboxai/OFS-out-of-scope@latest
 ```
+
+
+# Usage
+
+Usage: ofc -i <subdomains_file> -s <out_of_scope_file> -o <output_file>
