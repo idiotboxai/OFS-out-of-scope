@@ -1,4 +1,4 @@
-# OFS-out-of-scope
+# OFS - OUT OF SCOPE TOOL
 Tried manually removing recusive subdomins one by one not anymore outofscope is a tool used for removing the subdomains which are out of the scope. <br> &nbsp; <br>
 <img src="https://github.com/idiotboxai/OFS-out-of-scope/blob/main/logo.png" alt="logo">
  <br> &nbsp; <br>
