@@ -1,16 +1,44 @@
 # OFS-out-of-scope
 Tried manually removing recusive subdomins one by one not anymore outofscope is a tool used for removing the subdomains which are out of the scope.
 
-# Installation 
+## Installation 
 
 ```
  go install github.com/idiotboxai/OFS-out-of-scope@latest
 ```
 
 
-# Usage
+## Usage
 ```
 Usage: ofc -i <subdomains_file> -s <out_of_scope_file> -o <output_file>
 ```
 
-Demo of outofscope is can be find with outfile.txt :
+<strong>Demo for outscope.txt</strong>
+```
+*.target.com
+target.com/*
+target.com 
+```
+*.target.com remove all subdomaoins and recursive subdomains to it 
+if only sub is blocked target.com
+
+
+## Example
+**subdomain.txt**
+```
+ab.com
+abc.com
+aba.com
+lol.aba.com
+```
+**outofscope file**
+out.txt
+```
+*.aba.com
+```
+**outputfile**
+output.txt
+```
+ab.com
+abc.com
+```
