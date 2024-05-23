@@ -1,4 +1,4 @@
-module https://github.com/idiotboxai/OFS-out-of-scope
+module github.com/idiotboxai/OFS-out-of-scope
 
 require github.com/fatih/color v1.17.0
 
