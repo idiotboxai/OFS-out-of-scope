@@ -1,5 +1,4 @@
-module github.com/idiotboxai/OFS-out-of-scope
-
+module goku
 go 1.22.2
 
 require github.com/fatih/color v1.17.0
